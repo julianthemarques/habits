@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: 'https://habits-juba.vercel.app:3333'
-})
+  baseURL: "http://habits-production-39f5.up.railway.app",
+});
